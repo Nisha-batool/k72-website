@@ -7,6 +7,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/k72-website/',
+  base: '/',
   plugins: [react(),tailwindcss()],
 })
